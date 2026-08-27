@@ -1,0 +1,128 @@
+# ============================================================
+# OS / Editor
+# ============================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================================================
+# VS Code
+# ============================================================
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ============================================================
+# C++ / CMake
+# ============================================================
+
+# Build directory
+build/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+
+# CMake compile database
+compile_commands.json
+
+# Executables / libraries
+*.exe
+*.out
+*.app
+*.dylib
+*.so
+*.dll
+*.a
+*.lib
+
+# Object files
+*.o
+*.obj
+
+# ============================================================
+# Unity
+# ============================================================
+
+# Unity generated folders
+unity/RobotSimulation/[Ll]ibrary/
+unity/RobotSimulation/[Tt]emp/
+unity/RobotSimulation/[Oo]bj/
+unity/RobotSimulation/[Bb]uild/
+unity/RobotSimulation/[Bb]uilds/
+unity/RobotSimulation/[Ll]ogs/
+unity/RobotSimulation/[Uu]ser[Ss]ettings/
+
+# Unity generated solution/project files
+unity/RobotSimulation/*.csproj
+unity/RobotSimulation/*.sln
+unity/RobotSimulation/*.slnx
+unity/RobotSimulation/*.user
+unity/RobotSimulation/*.pidb
+unity/RobotSimulation/*.booproj
+unity/RobotSimulation/*.svd
+unity/RobotSimulation/*.pdb
+unity/RobotSimulation/*.mdb
+
+# Unity crash reports
+unity/RobotSimulation/sysinfo.txt
+
+# Visual Studio / Rider
+unity/RobotSimulation/.vs/
+unity/RobotSimulation/.idea/
+unity/RobotSimulation/*.userprefs
+
+# Unity generated packages
+unity/RobotSimulation/[Aa]ssets/**/*.csproj
+
+# ============================================================
+# Unity Addressables / Burst
+# ============================================================
+
+unity/RobotSimulation/[Aa]ssets/[Aa]ddressableAssetsData/*/*.bin*
+unity/RobotSimulation/[Ll]ibrary/[Bb]ee/
+unity/RobotSimulation/[Ll]ibrary/[Bb]urstCache/
+
+# ============================================================
+# Logs / temporary files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+.env
+
+# ============================================================
+# C++ tooling
+# ============================================================
+
+.clangd
+.cache/
