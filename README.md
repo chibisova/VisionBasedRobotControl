@@ -17,8 +17,6 @@ forward kinematics (FK) on a 6-DOF articulated robot.
 
 ## Current Status
 
-## Current Status
-
 ### Forward Kinematics (Complete)
 
 -   6-DOF robot articulation configured in Unity.
@@ -63,23 +61,6 @@ The current validation can reach a displayed error of:
 
 This indicates that the FK calculation matches Unity's end-effector
 position within the displayed precision.
-
-## Visualization
-
-  Element                Visualization
-  ---------------------- -------------------------
-  Unity joints           Cyan markers
-  FK joints              Blue markers
-  FK chain               Green lines
-  FK end effector        Purple marker
-  Unity end effector     Orange marker
-  FK ↔ Unity EE error    White line
-  Joint identification   `J1`--`J6` labels
-  Numerical validation   FK position error in mm
-
-The visualization is designed to make the relationship between the
-robot's physical hierarchy and the independently calculated FK model
-immediately visible.
 
 ## Controls
 
